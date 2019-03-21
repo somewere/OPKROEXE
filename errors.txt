@@ -1,0 +1,22 @@
+OpenKore version 
+Network state = 1.5
+Network handler = Network::XKore
+SVN revision: unknown
+Loaded plugins:
+  plugins/avoidSkill/avoidSkill.pl (avoidSkill; description: React to skills.)
+  plugins/macro/macro.pl (macro; description: allows usage of macros)
+  plugins/map/map.pl (map; description: map)
+  plugins/opkSXMode/opkSXMode.pl (opkSXMode; description: Openkore XKore Utilities)
+  plugins/profiles/profiles.pl (profiles; description: Profiles Selector)
+  plugins/reconnect/reconnect.pl (reconnect; description: v1.0)
+  plugins/telesearchV3/telesearchV3.pl (telesearchV3; description: Alternative tele-search v3.)
+  plugins/xConf/xConf.pl (xConf; description: commands for change items_control, mon_control, pickupitems, priority)
+
+Error message:
+Malformed UTF-8 character (fatal) at plugins/macro/Macro/Parser.pm line 45, <$fp> line 8.
+
+Stack trace:
+Malformed UTF-8 character (fatal) at plugins/macro/Macro/Parser.pm line 45, <$fp> line 8.
+ at src/Interface/Wx.pm line 163
+	Interface::Wx::mainLoop('Interface::Wx=HASH(0x4726444)') called at openkore.pl line 97
+	main::__start() called at start.pl line 136
